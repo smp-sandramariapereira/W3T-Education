@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Manifesto | W3T Education BH</title>
+  <meta name="description" content="Manifesto Web3 e o Futuro da Educacao: confianca, soberania de dados e governanca para uma educacao centrada no humano.">
+  <style>
+    :root {
+      --bg-0: #06090b;
+      --bg-1: #0d1a20;
+      --bg-2: #132d36;
+      --cyan-0: #d8f8ff;
+      --cyan-1: #9defff;
+      --cyan-2: #42d8ff;
+      --cyan-3: #0fa3c2;
+      --line: rgba(115, 232, 255, 0.25);
+      --panel: rgba(8, 21, 28, 0.82);
+      --text: #ecf9ff;
+      --muted: #b3d9e3;
+      --shadow: 0 16px 40px rgba(5, 16, 22, 0.55);
+      --radius: 18px;
+      --max: 1060px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      font-family: "Space Grotesk", "Avenir Next", "Segoe UI", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 8% 12%, rgba(66, 216, 255, 0.16), transparent 28%),
+        radial-gradient(circle at 88% 8%, rgba(15, 163, 194, 0.2), transparent 32%),
+        linear-gradient(140deg, var(--bg-0), var(--bg-1) 42%, var(--bg-2));
+      overflow-x: hidden;
+    }
+
+    .orb {
+      position: fixed;
+      width: 420px;
+      height: 420px;
+      border-radius: 50%;
+      filter: blur(70px);
+      pointer-events: none;
+      z-index: 0;
+      opacity: 0.18;
+    }
+
+    .orb.one {
+      top: -120px;
+      left: -110px;
+      background: #43d8ff;
+    }
+
+    .orb.two {
+      right: -130px;
+      bottom: -140px;
+      background: #18adc9;
+    }
+
+    .wrap {
+      position: relative;
+      z-index: 1;
+    }
+
+    header {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 28px 24px 14px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .brand {
+      font-family: "IBM Plex Mono", "JetBrains Mono", monospace;
+      font-size: 0.9rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--cyan-1);
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 8px 12px;
+      background: rgba(10, 26, 34, 0.6);
+      text-decoration: none;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+    }
+
+    nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.93rem;
+      transition: color 0.2s ease;
+    }
+
+    nav a:hover {
+      color: var(--cyan-1);
+    }
+
+    .hero {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 26px 24px 18px;
+    }
+
+    .hero-panel {
+      border: 1px solid rgba(66, 216, 255, 0.26);
+      border-radius: var(--radius);
+      background: var(--panel);
+      box-shadow: var(--shadow);
+      padding: 30px;
+      backdrop-filter: blur(8px);
+    }
+
+    .eyebrow {
+      font-family: "IBM Plex Mono", "JetBrains Mono", monospace;
+      text-transform: uppercase;
+      letter-spacing: 0.09em;
+      color: var(--cyan-1);
+      font-size: 0.78rem;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 4.5vw, 3.4rem);
+      line-height: 1.05;
+      margin-bottom: 14px;
+      max-width: 16ch;
+      text-wrap: balance;
+    }
+
+    .lead {
+      color: var(--muted);
+      line-height: 1.7;
+      max-width: 72ch;
+    }
+
+    main {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 14px 24px 58px;
+      display: grid;
+      gap: 18px;
+    }
+
+    .section {
+      border: 1px solid rgba(66, 216, 255, 0.22);
+      border-radius: 16px;
+      background: rgba(9, 24, 31, 0.78);
+      box-shadow: var(--shadow);
+      padding: 24px;
+    }
+
+    h2 {
+      font-size: clamp(1.22rem, 2.3vw, 1.8rem);
+      margin-bottom: 10px;
+      color: var(--cyan-0);
+    }
+
+    p {
+      color: var(--muted);
+      line-height: 1.75;
+      max-width: 74ch;
+    }
+
+    .commitment {
+      margin-top: 10px;
+      border-left: 2px solid rgba(157, 239, 255, 0.45);
+      padding-left: 14px;
+    }
+
+    .commitment strong {
+      color: var(--cyan-1);
+    }
+
+    .cta {
+      margin-top: 14px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .btn {
+      border: 1px solid transparent;
+      border-radius: 12px;
+      padding: 10px 15px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.94rem;
+      transition: transform 0.2s ease;
+    }
+
+    .btn.primary {
+      background: linear-gradient(110deg, var(--cyan-2), var(--cyan-3));
+      color: #03222b;
+    }
+
+    .btn.secondary {
+      background: rgba(12, 34, 43, 0.75);
+      border-color: rgba(126, 232, 255, 0.38);
+      color: var(--cyan-0);
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+    }
+
+    footer {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 0 24px 30px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 720px) {
+      .hero-panel, .section {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="orb one"></div>
+  <div class="orb two"></div>
+
+  <div class="wrap">
+    <header>
+      <a class="brand" href="index.html">W3T Education BH</a>
+      <nav>
+        <a href="index.html">Pagina Inicial</a>
+        <a href="#pilares">Compromissos</a>
+        <a href="#conclusao">Conclusao</a>
+        <a href="#apoio">Apoio</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <article class="hero-panel">
+        <p class="eyebrow">Manifesto Oficial</p>
+        <h1>Web3 e o futuro da educacao</h1>
+        <p class="lead">
+          A educacao vive uma tensao estrutural: a IA avanca em velocidade extrema enquanto os sistemas educacionais ainda buscam manter confianca, equidade e qualidade. Este manifesto apresenta a Web3 como infraestrutura para restaurar autonomia, autenticidade e governanca no processo de aprendizagem.
+        </p>
+      </article>
+    </section>
+
+    <main>
+      <section class="section" id="pilares">
+        <h2>1. Soberania dos dados</h2>
+        <p>
+          Registros academicos e historico de aprendizagem devem permanecer sob controle do estudante, com identidade digital soberana para reduzir silos institucionais e fortalecer a confianca.
+        </p>
+        <p class="commitment"><strong>Nosso compromisso:</strong> estruturar trilhas e credenciais com autonomia real sobre dados educacionais.</p>
+      </section>
+
+      <section class="section">
+        <h2>2. Transparencia contra a desinformacao</h2>
+        <p>
+          Em um ambiente de conteudo facilmente manipulavel, procedencia e verificacao se tornam essenciais para preservar integridade academica e confiabilidade institucional.
+        </p>
+        <p class="commitment"><strong>Nosso compromisso:</strong> usar blockchain para certificar autenticidade de producoes e processos educacionais.</p>
+      </section>
+
+      <section class="section">
+        <h2>3. Incentivos para aprendizagem produtiva</h2>
+        <p>
+          O futuro da educacao depende de recompensar colaboracao, esforco cognitivo e resolucao de problemas complexos, e nao apenas o consumo passivo de respostas.
+        </p>
+        <p class="commitment"><strong>Nosso compromisso:</strong> desenhar mecanismos de reconhecimento de competencias e engajamento com incentivos transparentes.</p>
+      </section>
+
+      <section class="section">
+        <h2>4. Governanca para resiliencia</h2>
+        <p>
+          Transformacao educacional em escala exige alinhamento continuo entre academia, governo, setor publico e iniciativa privada.
+        </p>
+        <p class="commitment"><strong>Nosso compromisso:</strong> consolidar uma arquitetura multissetorial de decisao para continuidade, equidade e impacto.</p>
+      </section>
+
+      <section class="section" id="conclusao">
+        <h2>Conclusao</h2>
+        <p>
+          A tecnologia nao determina sozinha os resultados de aprendizagem: o que importa e como ela e implementada. Ao adotar Web3, redesenhamos os alicerces de confianca, autonomia e responsabilidade para uma educacao centrada no humano.
+        </p>
+      </section>
+
+      <section class="section" id="apoio">
+        <h2>Apoio Institucional</h2>
+        <p>
+          O manifesto e um convite a instituicoes, educadores, desenvolvedores e liderancas publicas para cocriar solucoes aplicadas no ecossistema de Belo Horizonte.
+        </p>
+        <div class="cta">
+          <a class="btn primary" href="mailto:smp.sandramariapereira@gmail.com">Entrar em contato</a>
+          <a class="btn secondary" href="index.html#contato">Voltar para apoio na pagina inicial</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      W3T Education BH | Manifesto oficial do movimento por uma educacao descentralizada e centrada no humano.
+    </footer>
+  </div>
+</body>
+</html>
