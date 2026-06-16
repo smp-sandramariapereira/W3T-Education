@@ -1,6 +1,7 @@
 # offchain-EduMeetup
 
 Web3 Educação BH 🚀
+
 Bem-vindo ao hub oficial do movimento que conecta o setor educacional de Belo Horizonte ao ecossistema Web3.
 
 🎯 Nosso Objetivo
