@@ -1,6 +1,12 @@
 # Manifesto: Web3 e o Futuro da Educação
 ## Educação descentralizada, soberana e centrada no humano.
 
+# W3T - EduAction
+## Descentralizando o saber, emancipando o aprender.
+
+# Manifesto: Web3 e o Futuro da Educação
+## Educação descentralizada, soberana e centrada no humano.
+
 Como especialista em inovação tecnológica, entendo que a educação enfrenta hoje uma "tensão estrutural": enquanto a Inteligência Artificial (IA) remodela comportamentos de aprendizagem a uma velocidade sem precedentes, os sistemas educacionais — concebidos para evoluir de forma deliberada — ainda lutam para manter a equidade, a confiança e a qualidade.
 
 A Web3 emerge não apenas como uma tendência tecnológica, mas como a infraestrutura necessária para mitigar os riscos dessa adoção não estruturada da IA, como a atrofia cognitiva, a desinformação e a perda da integridade acadêmica.
@@ -31,3 +37,6 @@ Intervenções isoladas e fragmentadas em tecnologia e pedagogia falham em escal
 
 ### Conclusão
 A tecnologia, por si só, não determinará os resultados de aprendizagem; as condições de sua implementação é que o farão. Ao adotar a Web3, não estamos apenas trocando ferramentas, estamos redesenhando os alicerces de confiança e autonomia sobre os quais a educação deve se sustentar na era da Inteligência Artificial.
+
+---
+*Este é o hub oficial do movimento que conecta o setor educacional de Belo Horizonte ao ecossistema Web3.*
