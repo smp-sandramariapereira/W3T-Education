@@ -1,69 +1,77 @@
 # W3T Education BH
 
-Repositorio institucional do movimento que conecta o setor educacional de Belo Horizonte ao ecossistema Web3.
+Repositório institucional do movimento que conecta o setor educacional de Belo Horizonte ao ecossistema Web3.
 
-## Apresentacao
+## Apresentação
 
-O W3T Education BH tem como proposito promover a adocao responsavel de tecnologias Web3 na educacao, por meio da articulacao entre academia, setor publico, iniciativa privada e comunidade tecnica.
+O W3T Education BH tem como propósito promover a adoção responsável de tecnologias Web3 na educação, por meio da articulação entre academia, setor público, iniciativa privada e comunidade técnica.
 
-Em um contexto de aceleracao da Inteligencia Artificial, defendemos que a transformacao educacional deve ser orientada por principios de confianca, transparencia, soberania de dados e integridade academica.
+Em um contexto de aceleração da Inteligência Artificial, defendemos que a transformação educacional deve ser orientada por princípios de confiança, transparência, soberania de dados e integridade acadêmica.
 
-## Missao
+## Missão
 
-Fortalecer a educacao por meio de estruturas descentralizadas que ampliem autonomia do estudante, rastreabilidade da informacao e colaboracao entre instituicoes.
+Fortalecer a educação por meio de estruturas descentralizadas que ampliem autonomia do estudante, rastreabilidade da informação e colaboração entre instituições.
 
-## Visao
+## Visão
 
-Consolidar Belo Horizonte como referencia nacional em inovacao educacional com base em Web3, com impacto social, escalabilidade e alinhamento institucional.
+Consolidar Belo Horizonte como referência nacional em inovação educacional com base em Web3, com impacto social, escalabilidade e alinhamento institucional.
 
-## Diretrizes Estrategicas
+## Diretrizes Estratégicas
 
 1. Soberania de dados educacionais
-Garantir que registros academicos e historicos de aprendizagem estejam sob controle do proprio aluno, com base em modelos de identidade digital soberana (Self-Sovereign Identity).
+Garantir que registros acadêmicos e históricos de aprendizagem estejam sob controle do próprio aluno, com base em modelos de identidade digital soberana (Self-Sovereign Identity).
 
-2. Transparencia e autenticidade
-Utilizar infraestrutura blockchain para verificacao de procedencia de conteudos e validacao de producoes academicas.
+2. Transparência e autenticidade
+Utilizar infraestrutura blockchain para verificação de procedência de conteúdos e validação de produções acadêmicas.
 
-3. Incentivos ao desenvolvimento de competencias
-Estruturar mecanismos de reconhecimento por desempenho, colaboracao e resolucao de desafios complexos, inclusive por tokenizacao de incentivos.
+3. Incentivos ao desenvolvimento de competências
+Estruturar mecanismos de reconhecimento por desempenho, colaboração e resolução de desafios complexos, inclusive por tokenização de incentivos.
 
-4. Governanca multissetorial
-Promover alinhamento continuo entre instituicoes de ensino, governo, empresas e comunidades, assegurando resiliencia e continuidade das iniciativas.
+4. Governança multissetorial
+Promover alinhamento contínuo entre instituições de ensino, governo, empresas e comunidades, assegurando resiliência e continuidade das iniciativas.
 
 ## Programa Local: Web3 Conecta BH
 
-O Web3 Conecta BH e a frente de mobilizacao territorial do movimento, voltada a transformar desafios educacionais em casos de uso aplicados.
+O Web3 Conecta BH é a frente de mobilização territorial do movimento, voltada a transformar desafios educacionais em casos de uso aplicados.
 
 ### Escopo do encontro inicial
 
 - Local: Orbi Conecta (Lagoinha, Belo Horizonte)
-- Formato: networking, painel multissetorial e dinamica de co-criacao
-- Participantes: educadores, gestores publicos, tomadores de decisao, desenvolvedores e representantes do ecossistema de inovacao
-- Eixos praticos: SSI para diplomas, tokenizacao de incentivos e transparencia de processos com blockchain
+- Formato: networking, painel multissetorial e dinâmica de co-criação
+- Participantes: educadores, gestores públicos, tomadores de decisão, desenvolvedores e representantes do ecossistema de inovação
+- Eixos práticos: SSI para diplomas, tokenização de incentivos e transparência de processos com blockchain
+
+## Como Participar
+
+Nesta fase, a participação no movimento é voluntária e não remunerada. O compromisso esperado é colaboração ativa, construção coletiva e entrega de contribuições práticas nos ciclos do programa.
+
+- Educadores e gestores: cocriar casos de uso, validar demandas pedagógicas e apoiar pilotos institucionais.
+- Profissionais técnicos: contribuir com protótipos, arquitetura, dados e suporte à implementação de soluções.
+- Instituições e parceiros: oferecer infraestrutura, mentoria, articulação e visibilidade para continuidade das frentes.
 
 ## Formas de Apoio Institucional
 
-- Apoio de infraestrutura para realizacao dos encontros
-- Participacao tecnica por meio de mentoria e conteudo especializado
-- Amplificacao institucional em canais de comunicacao e redes de relacionamento
+- Apoio de infraestrutura para realização dos encontros
+- Participação técnica por meio de mentoria e conteúdo especializado
+- Amplificação institucional em canais de comunicação e redes de relacionamento
 
-## Estrutura do Repositorio
+## Estrutura do Repositório
 
 - manifesto.md: diretrizes conceituais do movimento
 - I-W3T-Education-BH.md: proposta de apoio e detalhamento do programa local em Belo Horizonte
 
-## Agenda de Implementacao
+## Agenda de Implementação
 
-- Mapeamento de representantes estrategicos do ecossistema local
-- Consolidacao da agenda de encontros e paineis tematicos
-- Estruturacao de parcerias para continuidade do movimento e novas edicoes
+- Mapeamento de representantes estratégicos do ecossistema local
+- Consolidação da agenda de encontros e painéis temáticos
+- Estruturação de parcerias para continuidade do movimento e novas edições
 
 ## Contato Institucional
 
-Esta secao deve ser atualizada com os canais oficiais do movimento:
+Esta seção deve ser atualizada com os canais oficiais do movimento:
 
-- Responsavel institucional
+- Responsável institucional
 - E-mail
 - LinkedIn
-- Pagina oficial do projeto ou evento
+- Página oficial do projeto ou evento
 
