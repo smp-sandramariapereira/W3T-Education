@@ -1,16 +1,17 @@
 # offchain-EduMeetup
 
-Web3 Educação BH 🚀
+## Web3 Educação BH 🚀
 
 Bem-vindo ao hub oficial do movimento que conecta o setor educacional de Belo Horizonte ao ecossistema Web3.
 
-🎯 Nosso Objetivo:
-
+### 🎯 Nosso Objetivo
 Criar encontros temáticos, manter a continuidade do movimento e conectar atores da comunidade acadêmica, governo e empresas para transformar a educação através da descentralização.
 
-📅 Próximo Meetup: Web3 Conecta
-* Local: Órbi Conecta, Lagoinha.
-* Foco: Integrar Web3 para resolver dores reais como burocracia em diplomas, incentivos ao aprendizado e transparência.
+### 📅 Próximo Meetup: Web3 Conecta
+* **Local**: Órbi Conecta, Lagoinha.
+* **Foco**: Integrar Web3 para resolver dores reais como burocracia em diplomas, incentivos ao aprendizado e transparência.
+
+---
 
 # Proposta de Apoio: Web3 Conecta (Edição BH)
 
